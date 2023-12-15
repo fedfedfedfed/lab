@@ -1,0 +1,67 @@
+.section {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    border: 1px solid #000000;
+    
+}
+.chat-container {
+    display: flex;
+    border: 1px solid #ccc;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.chat-box {
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+
+.user-input {
+    display: flex;
+    width: 400px;
+    text-align: center;
+    border: 1px solid #f04ffd;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.message-container {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #f04ffd;
+    background-color: #daaddd;
+    border-radius: 10px;
+}
+.btn {
+    border-radius: 50px;
+    margin: 10px;
+    border: 1px solid #f04ffd;
+    background-color: #f04ffd;
+    padding: 10px;
+}
+.users {
+    padding-top: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 50%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#calculateButton {
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header_wrapper">
+            <img src="images/Logo.png" alt="logo">
+            
+            <input type="text" class="search-box" placeholder="Search">
+        
+            <nav class="header_navigation">
+                <ul class="header_navigation_list">
+                    <li class="header_navigation_list_item"><a href="index.html">Home</a></li>
+                    <li class="header_navigation_list_item"><a href="faq.html">FAQ</a></li>
+                    <li class="header_navigation_list_item"><a href="contact.html">Contact Us</a></li>
+                    <li class="header_navigation_list_item"><a href="signin.html">Sign In</a></li>
+                </ul>
+            </nav>
+            <div class="header_icons">
+                <a href=""> <img src="images/like.svg" alt="favourites"></a>
+               <a href="cart.html"><img src="images/cart.svg" alt="cart"></a>
+               <a href=""><img src="images/account.svg" alt="account"></a>
+            </div>
+            
+            <div id="burger-menu">
+                <span></span>
+              </div>
+              
+              <div id="menu">
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="signin.html">Sign In</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                  </ul>
+              </div>
+              </div>
+        </div>
+    </div>
+    </header>
+
+   
+    <section class="reg">
+        <div class="wrapper">
+            <div class="reg_wrapper">
+                <div class="reg_container">
+                    <p class="reg_title">Register Right Now</p>
+                    <p class="reg_subtitle">If you have an account, <a href="signin.html"> sign in </a> with your email address.</p>
+                    <label for="email">Your Email: <span>*</span></label>
+                    <input placeholder="Your Email" type="email" id="email" name="email" required>
+                    <label for="password">Your Password: <span>*</span></label>
+                    <input placeholder="Your Password" type="password" id="password" name="password" required>
+                    <label for="surname">Your Surname: <span>*</span></label>
+                    <input placeholder="Your Surname" type="text" id="surname" name="surname" required>
+                    <label for="name">Your Name: <span>*</span></label>
+                    <input placeholder="Your Name" type="text" id="name" name="name" required>
+                    <label for="middlename">Your Middle Name: <span>*</span></label>
+                    <input placeholder="Your Middle Name" type="text" id="middlename" name="middlename" required>
+                    <label for="dateofbirth">Your Date Of Birth: <span>*</span></label>
+                    <input placeholder="Your Date Of Birth" type="date" id="dateofbirth" name="dateofbirth" required>
+                    
+                    <label for="group">Select Your Gender:</label>
+                    <select id="group" name="group">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="prefer_not_tosay">Prefer Not To Say</option>
+                    </select>
+                    
+                    <label for="file" class="file-input-container">
+                        Upload a Photo for your Profile:
+                        <label for="file" class="file-input-button">Choose File</label>
+                        <input type="file" id="file" name="file" class="file-input" accept=".png, .jpg, .jpeg, .svg, .webp">
+                    </label>
+                    
+                    <button class="sign_in_btn">Register Me</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits">
+        <div class="wrapper">
+            <div class="benefits_wrapper">
+                <div class="benefits_item">
+                    <div class="circle">
+                        <img src="images/login_reg/support.svg" alt="">
+                    </div>
+                    <p class="benefits_title">Product Support</p>
+                    <p class="benefits_subtitle">Up to 3 years on-site warranty available for your peace of mind.</p>        
+                </div>
+                <div class="benefits_item">
+                    <div class="circle">
+                        <img src="images/login_reg/account.svg" alt="">
+                    </div>
+                    <p class="benefits_title">Personal Account</p>
+                    <p class="benefits_subtitle">With big discounts, free delivery and a dedicated support specialist.</p>        
+                </div>
+                <div class="benefits_item">
+                    <div class="circle">
+                        <img src="images/login_reg/savings.svg" alt="">
+                    </div>
+                    <p class="benefits_title">Amazing Savings</p>
+                    <p class="benefits_subtitle">Up to 70% off new Products, you can be sure of the best price.</p>        
+                </div>
+            </div>
+    </div>
+    </section>
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer_wrapper">
+            <div class="footer_logo">
+                <img src="images/logo_white.svg" alt="">
+                <p class="footer_logo_desc">We are a residential interior design firm located in Portland. Our boutique-studio offers more than</p>
+            </div>
+            <div class="services">
+                <p class="services_title">Services</p>
+                <ul class="service_nav">
+                    <li class="service_nav_item"><a href="">Bonus program</a></li>
+                    <li class="service_nav_item"><a href="">Gift cards</a></li>
+                    <li class="service_nav_item"><a href="">Credit and payment</a></li>
+                    <li class="service_nav_item"><a href="">Service contracts</a></li>
+                    <li class="service_nav_item"><a href="">Non-cash account</a></li>
+                    <li class="service_nav_item"><a href="">Payment</a></li>
+                </ul>
+            </div>
+            <div class="services">
+                <p class="services_title">Assistance to the buyer</p>
+                <ul class="service_nav">
+                    <li class="service_nav_item"><a href="">Find an order</a></li>
+                    <li class="service_nav_item"><a href="">Terms of delivery</a></li>
+                    <li class="service_nav_item"><a href="">Exchange and return of goods</a></li>
+                    <li class="service_nav_item"><a href="">Guarantee</a></li>
+                    <li class="service_nav_item"><a href="">Frequently asked questions</a></li>
+                    <li class="service_nav_item"><a href="">Terms of use of the site</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="social">
+            <a href="tel:+123456789" target="_blank"><i class="fa-xl fa-solid fa-phone" style="color: #ffffff;"></i></a>
+            <a href="mailto:example@gmail.com" target="_blank"><i class="fa-xl fa-regular fa-envelope" style="color: #ffffff;"></i></a>
+            <a href="https://t.me/fediun4ik" target="_blank"><i class="fa-xl fa-brands fa-telegram" style="color: #ffffff;"></i></a>
+            <a href="https://wa.me/123456789" target="_blank"><i class="fa-xl fa-brands fa-whatsapp" style="color: #ffffff;"></i></a>
+        </div>
+    </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+
+</body>
+</html>
